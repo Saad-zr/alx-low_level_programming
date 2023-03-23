@@ -23,7 +23,8 @@ void print_times_table(int n)
 					f = (c % 100) % 10;
 					if (b == 0)
 					{
-						_putchar('0'); }
+						_putchar('0');
+					}
 					else if (c < 10)
 					{
 						_putchar(' ');
@@ -52,5 +53,4 @@ void print_times_table(int n)
 			}
 		}
 	}
-}
-																									
+}		
