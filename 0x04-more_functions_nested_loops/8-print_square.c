@@ -3,7 +3,7 @@
 
 /**
  * print_square - print square line dependent on the integer n.
- * @n : The number of lines using '#' characters to use per row and column
+ * @n : The numbe`r of lines using '#' characters to use per row and column
  * Return: return void
  */
 void print_square(int n)
