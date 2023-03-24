@@ -1,26 +1,22 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_square - print square line dependent on the integer n.
- * @n : The numbe`r of lines using '#' characters to use per row and column
- * Return: return void
+ * print_square - prints hashes squares.
+ * @size: size of the square.
+ * Return: no return.
  */
-void print_square(int n)
+void print_square(int size)
 {
-	int x;
-	int y;
+	int i, j;
 
-	for (y = 0; y < n; y++)
+	for (i = 0; i < size; i++)
 	{
-		for (x = 0; x < n; x++)
+		for (j = 0; j < size; j++)
 		{
-			_putchar('#');
+			_putchar(35);
 		}
-		_putchar('\n');
+		if (i != size - 1)
+			_putchar('\n');
 	}
-	if (n <=0 )
-	{
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
