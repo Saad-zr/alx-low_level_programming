@@ -89,4 +89,5 @@ int main(int argc, char *argv[])
 		if (result[i])
 			a = 1;
 		if (a)
+	}
 
